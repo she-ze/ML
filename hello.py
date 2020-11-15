@@ -1,4 +1,6 @@
 print("Hello python")
-s = "4+5"
-S = 9 - 1 + 1
-print(s, S)
+ls = list(range(5))
+print(ls)
+a = 'aaaabbbcc'
+b = a.replace('a', "A", 2)
+print(b)
