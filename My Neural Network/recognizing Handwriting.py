@@ -1,5 +1,6 @@
 import numpy
 import scipy.special
+import matplotlib.pyplot
 
 
 # neural network class definition
@@ -74,14 +75,17 @@ class neuralNetwork:
 
 
 # number of input, hidden and output nodes
-input_nodes = 3
-hidden_nodes = 3
-output_nodes = 3
+input_nodes = 784
+hidden_nodes = 100
+output_nodes = 10
 
 # learning rate
-learning_rate = 0.5
+learning_rate = 0.3
 
 # create instance of neural network
 n = neuralNetwork(input_nodes, hidden_nodes, output_nodes, learning_rate)
+
+# load the mnist training data CSV file into a list
+
 
 print(n.query([1., 0.5, -1.5]))
