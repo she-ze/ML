@@ -24,3 +24,4 @@ ax.spines['left'].set_position(('data', 0))
 
 plt.plot(x, y)
 plt.show()
+
