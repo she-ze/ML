@@ -27,5 +27,5 @@ class Dog:
 
 pass
 
-kitt = Dog("kitt", 2)
+Kitt = Dog("kitt", 2)
 kitt.status()
